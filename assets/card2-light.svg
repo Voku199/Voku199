@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="170" viewBox="0 0 490 170" role="img"><title>VR Lasergame: Deathmatch vs 6 bots on Quest 3. Walk on the spot to move.</title><style>
+.sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',Menlo,monospace}
+.fg{fill:#1f2328} .muted{fill:#59636e} .accent{fill:#e5482a}
+.up{opacity:0;animation:up .8s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.draw{animation:draw 1.4s cubic-bezier(.6,0,.2,1) forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+.sweep{animation:sweep 7s linear infinite}@keyframes sweep{from{transform:translateX(-120px)}to{transform:translateX(510px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.up{opacity:1}.draw{stroke-dashoffset:0}}
+</style>
+    <clipPath id="c"><rect x=".5" y=".5" width="489" height="169" rx="14"/></clipPath>
+    <rect x=".5" y=".5" width="489" height="169" rx="14" fill="#f6f8fa" stroke="#d0d7de"/>
+    <g clip-path="url(#c)"><rect class="sweep" x="0" y="0" width="100" height="2" fill="#e5482a" style="animation-delay:-2.6s"/></g>
+    <g class="up" style="animation-delay:0.26s">
+      <text class="sans fg" x="28" y="50" font-size="22" font-weight="700">VR Lasergame</text>
+      <text class="sans muted" x="28" y="86" font-size="15">Deathmatch vs 6 bots on Quest 3. Walk on the spot to</text><text class="sans muted" x="28" y="108" font-size="15">move.</text><rect x="28" y="128" width="58" height="22" rx="11" fill="none" stroke="#d0d7de"/><text class="mono muted" x="57" y="143" font-size="12" text-anchor="middle">WebXR</text><rect x="94.0" y="128" width="81" height="22" rx="11" fill="none" stroke="#d0d7de"/><text class="mono muted" x="134" y="143" font-size="12" text-anchor="middle">three.js</text><rect x="182.8" y="128" width="58" height="22" rx="11" fill="none" stroke="#d0d7de"/><text class="mono muted" x="212" y="143" font-size="12" text-anchor="middle">Flask</text>
+    </g></svg>

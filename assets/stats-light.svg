@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="160" viewBox="0 0 1000 160" role="img"><title>66 projects &amp; experiments, 330k+ lines of code, 6 languages I ship in, 2 laser-game arenas on my code</title><style>
+.sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',Menlo,monospace}
+.fg{fill:#1f2328} .muted{fill:#59636e} .accent{fill:#e5482a}
+.up{opacity:0;animation:up .8s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.draw{animation:draw 1.4s cubic-bezier(.6,0,.2,1) forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.up{opacity:1}.draw{stroke-dashoffset:0}}
+</style><g class="up" style="animation-delay:0.10s"><text class="sans fg" x="0" y="52" font-size="44" font-weight="700" letter-spacing="-1">66</text><text class="sans muted" x="0" y="80" font-size="15">projects &amp; experiments</text></g><g class="up" style="animation-delay:0.22s"><text class="sans fg" x="250" y="52" font-size="44" font-weight="700" letter-spacing="-1">330k+</text><text class="sans muted" x="250" y="80" font-size="15">lines of code</text></g><g class="up" style="animation-delay:0.34s"><text class="sans fg" x="500" y="52" font-size="44" font-weight="700" letter-spacing="-1">6</text><text class="sans muted" x="500" y="80" font-size="15">languages I ship in</text></g><g class="up" style="animation-delay:0.46s"><text class="sans fg" x="750" y="52" font-size="44" font-weight="700" letter-spacing="-1">2</text><text class="sans muted" x="750" y="80" font-size="15">laser-game arenas on my code</text></g>
+    <clipPath id="reveal"><rect x="0" y="108" width="1000" height="16" rx="4">
+      <animate attributeName="width" from="0" to="1000" dur="1.6s" begin="0s" fill="freeze" calcMode="spline" keySplines=".6 0 .2 1" keyTimes="0;1"/>
+    </rect></clipPath>
+    <rect x="0" y="112" width="1000" height="8" rx="4" fill="#d0d7de"/>
+    <g clip-path="url(#reveal)"><rect x="0.0" y="112" width="570.1" height="8" fill="#3572A5"/><rect x="570.1" y="112" width="185.0" height="8" fill="#e34c26"/><rect x="755.1" y="112" width="129.0" height="8" fill="#f1e05a"/><rect x="884.2" y="112" width="92.9" height="8" fill="#663399"/><rect x="977.1" y="112" width="17.8" height="8" fill="#b07219"/><rect x="994.9" y="112" width="5.1" height="8" fill="#89e051"/></g>
+    <text class="mono muted up" x="0" y="150" font-size="13" style="animation-delay:1.40s">Python 57%  ·  HTML 19%  ·  JavaScript 13%  ·  CSS 9%  ·  Java 2%</text></svg>

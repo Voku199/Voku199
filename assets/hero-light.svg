@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img"><title>Vojtěch Kurinec: I build web apps for real laser-game arenas, Minecraft plugins for my friends&#x27; SMP, WebXR games for the Quest 3, small tools that run my day</title><style>
+.sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',Menlo,monospace}
+.fg{fill:#1f2328} .muted{fill:#59636e} .accent{fill:#e5482a}
+.up{opacity:0;animation:up .8s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.draw{animation:draw 1.4s cubic-bezier(.6,0,.2,1) forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+.rot{opacity:0;animation:rot 12s infinite}@keyframes rot{0%{opacity:0;transform:translateY(10px)}3.0%{opacity:1;transform:none}22.0%{opacity:1;transform:none}25.0%{opacity:0;transform:translateY(-10px)}100%{opacity:0}}@media (prefers-reduced-motion:reduce){.rot0{opacity:1}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.up{opacity:1}.draw{stroke-dashoffset:0}}
+</style>
+    <text class="mono muted up" x="0" y="36" font-size="14" letter-spacing="3">VOKU199 · CZECHIA</text>
+    <text class="sans fg up" x="-3" y="118" font-size="68" font-weight="700" letter-spacing="-1.5" style="animation-delay:0.15s">Vojtěch Kurinec</text>
+    <line x1="0" y1="150" x2="1000" y2="150" stroke="#d0d7de" stroke-width="1"/>
+    <line class="draw" x1="0" y1="150" x2="1000" y2="150" stroke="#e5482a" stroke-width="2"
+          stroke-dasharray="1000" stroke-dashoffset="1000" style="animation-delay:.3s"/>
+    <circle cy="150" r="3.5" fill="#e5482a">
+      <animate attributeName="cx" values="0;1000" dur="4s" begin="1.7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.9;1" dur="4s" begin="1.7s" repeatCount="indefinite"/>
+    </circle>
+    <text class="sans rot rot0" x="0" y="214" font-size="26" style="animation-delay:0s"><tspan class="muted">I build </tspan><tspan class="fg" font-weight="600">web apps for real laser-game arenas</tspan></text><text class="sans rot rot1" x="0" y="214" font-size="26" style="animation-delay:3s"><tspan class="muted">I build </tspan><tspan class="fg" font-weight="600">Minecraft plugins for my friends&#x27; SMP</tspan></text><text class="sans rot rot2" x="0" y="214" font-size="26" style="animation-delay:6s"><tspan class="muted">I build </tspan><tspan class="fg" font-weight="600">WebXR games for the Quest 3</tspan></text><text class="sans rot rot3" x="0" y="214" font-size="26" style="animation-delay:9s"><tspan class="muted">I build </tspan><tspan class="fg" font-weight="600">small tools that run my day</tspan></text>
+    <g class="up" style="animation-delay:0.60s">
+      <circle class="pulse" cx="6" cy="255" r="5" fill="#e5482a"/>
+      <text class="mono muted" x="22" y="260" font-size="15">now building: <tspan class="fg">liteclip — a 50 MB replay buffer for games</tspan></text>
+    </g></svg>

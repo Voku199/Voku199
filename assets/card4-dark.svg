@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="170" viewBox="0 0 490 170" role="img"><title>liteclip: Replay buffer: F8 saves the last 30 s, one click sends it to Discord.</title><style>
+.sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SF Mono',Menlo,monospace}
+.fg{fill:#e6edf3} .muted{fill:#8b949e} .accent{fill:#ff5a36}
+.up{opacity:0;animation:up .8s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.draw{animation:draw 1.4s cubic-bezier(.6,0,.2,1) forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.25}}
+.sweep{animation:sweep 7s linear infinite}@keyframes sweep{from{transform:translateX(-120px)}to{transform:translateX(510px)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.up{opacity:1}.draw{stroke-dashoffset:0}}
+</style>
+    <clipPath id="c"><rect x=".5" y=".5" width="489" height="169" rx="14"/></clipPath>
+    <rect x=".5" y=".5" width="489" height="169" rx="14" fill="#161b22" stroke="#30363d"/>
+    <g clip-path="url(#c)"><rect class="sweep" x="0" y="0" width="100" height="2" fill="#ff5a36" style="animation-delay:-5.2s"/></g>
+    <g class="up" style="animation-delay:0.42s">
+      <text class="sans fg" x="28" y="50" font-size="22" font-weight="700">liteclip</text>
+      <text class="sans muted" x="28" y="86" font-size="15">Replay buffer: F8 saves the last 30 s, one click sends</text><text class="sans muted" x="28" y="108" font-size="15">it to Discord.</text><rect x="28" y="128" width="66" height="22" rx="11" fill="none" stroke="#30363d"/><text class="mono muted" x="61" y="143" font-size="12" text-anchor="middle">Python</text><rect x="101.6" y="128" width="66" height="22" rx="11" fill="none" stroke="#30363d"/><text class="mono muted" x="134" y="143" font-size="12" text-anchor="middle">ffmpeg</text><rect x="175.2" y="128" width="58" height="22" rx="11" fill="none" stroke="#30363d"/><text class="mono muted" x="204" y="143" font-size="12" text-anchor="middle">NVENC</text>
+    </g></svg>
